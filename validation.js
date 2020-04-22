@@ -1,4 +1,5 @@
- $('#EditBE th span').each(function () {
+``` 
+$('#EditBE th span').each(function () {
                     if ($(this).hasClass('requiredMark')) {
                         var field_name = $(this).closest("th").find('label').text();
                         var value = $(this).closest("td").find('input[type=text]').val();
@@ -20,3 +21,4 @@
                         }
                     }
                 });
+``` 
