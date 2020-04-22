@@ -1,3 +1,8 @@
+                if ($("#").val() == "") {
+                    $("#").text("欄位是必要項。");
+                    m_return = false;
+                }
+
 ``` 
 $('#EditBE th span').each(function () {
                     if ($(this).hasClass('requiredMark')) {
